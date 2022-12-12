@@ -5,7 +5,9 @@ public:
         int maximum = INT_MIN;
         
         int counter = 0;
+        
         if(nums.size() == 1) return nums[0];
+        
         for(auto i : nums)
         {
            
@@ -15,11 +17,14 @@ public:
                 counter = 0;
                 
             }
+            
             counter += i;
+            
             if(maximum < counter)
             {
                 maximum = counter;
             }
+            
         }
         
         return maximum;
