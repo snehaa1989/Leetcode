@@ -3,5 +3,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 
 
 # Striver's sde sheet
-# Interview Bit problems
+## Interview Bit problems
 1. Array - https://www.interviewbit.com/problems/repeat-and-missing-number-array/
